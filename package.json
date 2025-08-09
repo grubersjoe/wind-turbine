@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "check": "prettier --check --plugin=@prettier/plugin-xml --xml-whitespace-sensitivity=ignore .",
     "dev": "vite",
     "format": "prettier --write --plugin=@prettier/plugin-xml --xml-whitespace-sensitivity=ignore .",
     "preview": "vite build && vite preview"
