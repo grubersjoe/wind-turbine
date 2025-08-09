@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "format": "prettier --write --plugin=@prettier/plugin-xml .",
+    "format": "prettier --write --plugin=@prettier/plugin-xml --xml-whitespace-sensitivity=ignore .",
     "preview": "vite build && vite preview"
   },
   "devDependencies": {
